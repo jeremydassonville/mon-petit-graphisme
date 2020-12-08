@@ -15,6 +15,8 @@
 
 body {
   font-family: robotothin;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 /* header */
@@ -38,12 +40,90 @@ nav ul li {
 }
 
 li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 li a:hover {
-    border: 2px solid blue;
-    padding-left: 30px;
-    border-width: 2px 2px 2px 2px;
+  border: 2px solid blue;
+  padding-left: 30px;
+  border-width: 2px 2px 2px 2px;
+}
+
+/* Bannière du site */
+
+#background img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+#banniere_description {
+    position: absolute;
+    bottom: 420px;
+    left: 750px;
+    color: white;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+/* contenue principal de la page  */
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#description {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+ /* capsule description services */
+
+#illustrations_general {
+    display: flex;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+
+#graphisme {
+    text-align: center;
+    padding-right: 15px;
+}
+
+#illustrations_general p {
+   font-size: 0.8em;
+}
+
+#strategie {
+    text-align: center;
+    padding-right: 10px;
+}
+
+#illustrations {
+    text-align: center;
+    margin-right: 70px;
+}
+
+/* partie témoignage */
+
+#temoignage {
+    display: flex;
+    flex-direction: column;
+}
+
+#contenu_temoignage {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#temoin {
+    text-align: center;
+    margin-top: -20px;
 }
