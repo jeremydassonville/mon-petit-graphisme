@@ -15,8 +15,8 @@
 
 body {
   font-family: robotothin;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 /* header */
@@ -59,10 +59,8 @@ li a:hover {
 }
 
 #banniere_description {
-    position: absolute;
-    bottom: 420px;
-    left: 750px;
-    color: white;
+    position: 
+    color: black;
     text-align: center;
     font-size: 1.8em;
 }
@@ -93,7 +91,7 @@ article {
 
 #graphisme {
     text-align: center;
-    padding-right: 15px;
+    padding-right: 30px;
 }
 
 #illustrations_general p {
@@ -102,12 +100,12 @@ article {
 
 #strategie {
     text-align: center;
-    padding-right: 10px;
+    padding-left: 140px;
 }
 
 #illustrations {
     text-align: center;
-    margin-right: 70px;
+    padding-left: 120px;
 }
 
 /* partie témoignage */
@@ -126,4 +124,42 @@ article {
 #temoin {
     text-align: center;
     margin-top: -20px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(55, 0, 128);
+}
+
+#copyright {
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+}
+
+#logo_miniature {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: -10px;
+    color: rgb(185, 181, 190);
+    font-size: 1.7em;
+    text-align: center;
+}
+
+#bas_page {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8em;
+}
+
+#bas_page h3 {
+    color: rgb(185, 181, 190);
+    font-weight: bolder;
+    font-size: 0.9em;
 }
